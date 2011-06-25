@@ -30,6 +30,9 @@
 
 		echo $this->Html->css('cake.generic');
 
+		echo $this->Html->script('prototype');
+		echo $this->Html->script('scriptaculous');
+
 		echo $scripts_for_layout;
 	?>
 </head>

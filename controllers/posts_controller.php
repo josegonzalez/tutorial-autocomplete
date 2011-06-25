@@ -1,6 +1,12 @@
 <?php
 class PostsController extends AppController {
-	
+
+	var $helpers = array('Ajax');
+
+	function index() {
+		
+	}
+
 	function auto_complete() {
 		//Partial strings will come from the autocomplete field as
 		//$this->data['Post']['title'] 
