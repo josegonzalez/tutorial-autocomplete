@@ -1,7 +1,7 @@
 <h2>Search for posts</h2>
-<?php echo $form->create('Post', array('url' => '/posts/view')); ?>
-	<?php echo $ajax->autoComplete('Post.title', '/posts/auto_complete')?>
-<?php echo $form->end('View Post')?>
+<?php echo $this->Form->create('Post', array('url' => '/posts/view')); ?>
+	<?php echo $this->Ajax->autoComplete('Post.title', '/posts/auto_complete')?>
+<?php echo $this->Form->end('View Post')?>
 
 <style type="text/css">
 div.auto_complete    {
