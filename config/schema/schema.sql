@@ -6,5 +6,4 @@ CREATE TABLE `posts` (
   `created` date DEFAULT NULL,
   `active` tinyint(1) DEFAULT '0',
   PRIMARY KEY (`id`),
-  UNIQUE KEY `link` (`link`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
